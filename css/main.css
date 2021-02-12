@@ -28,7 +28,7 @@ h6 {
 }
 /*UTILITIES*/
 .container {
-    width: 1170px;
+    width: 1024px;
     margin: 0 auto;
 }
 
@@ -40,7 +40,9 @@ header {
     /*background: pink;*/
 }
 header .brand img {
-    width: 100px; /*165*/
+    padding: 15px;
+    border-right: 1px solid #858585;
+    width: 165px; /*165*/
 }
 
 .main-menu {
@@ -70,9 +72,30 @@ header .brand img {
 /* HERO IMG*/
 
 .hero {
-    height: 500px;
     margin-bottom: 40px;
-    background: gold;
+   /* background: gold; */
+   background-color: rgba(255 , 0 , 0 , 0.5);
+}
+
+.hero .hero-img {
+    border-radius: 10px;
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    opacity: 2;
+    text-align: left;
+    width: 1024px;
+    height: 440px;
+}
+
+ .hero .hero-img h1 {
+    padding-top: 280px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.hero .hero-img p {
+    padding-left: 50px;
+    color: #fff;
 }
 
 /*LEADERSHIP*/
