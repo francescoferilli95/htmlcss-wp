@@ -1,0 +1,103 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    color: #858585;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #000;
+}
+/*UTILITIES*/
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+header {
+    /*height: 120px;*/ /* emula content*/
+    margin-bottom: 40px;
+    /*background: pink;*/
+}
+header .brand img {
+    width: 100px; /*165*/
+}
+
+.main-menu {
+    margin-top: 40px;
+}
+
+.main-menu li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.main-menu li:last-child {
+    margin: 0;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #858585;
+}
+
+.main-menu li a:hover {
+    color: black;
+}
+/* HERO IMG*/
+.hero {
+    height: 500px;
+    margin-bottom: 40px;
+    background: gold;
+}
+
+/*LEADERSHIP*/
+.leadership {
+    margin-bottom: 20px;
+    /*background: dodgerblue;*/
+}
+
+.leadership .heading {
+    /*height: 60px;
+    background: lightblue; */
+    margin-bottom: 40px;
+}
+
+.leadership h2 {
+    font-size: 40px;
+}
+
+.leadership .columns .col {
+    float: left;
+    width: 20%;
+    height: 600px;
+    margin-bottom: 20px;
+    background: lightblue;
+}
+
+.leadership .columns .col:nth-child(2) {
+    width: 56%;
+    margin: 0 2%;
+}
+
+/*FOOTER*/
+footer {
+    height: 60px;
+    background: purple;
+}
