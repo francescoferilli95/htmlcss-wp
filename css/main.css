@@ -17,7 +17,12 @@ body {
     color: #858585;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 600;
     color: #000;
 }
@@ -28,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*HEADER*/
+
 header {
     /*height: 120px;*/ /* emula content*/
     margin-bottom: 40px;
@@ -60,7 +66,9 @@ header .brand img {
 .main-menu li a:hover {
     color: black;
 }
+
 /* HERO IMG*/
+
 .hero {
     height: 500px;
     margin-bottom: 40px;
@@ -97,6 +105,7 @@ header .brand img {
 }
 
 /*FOOTER*/
+
 footer {
     height: 60px;
     background: purple;
