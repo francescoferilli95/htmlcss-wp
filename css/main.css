@@ -135,24 +135,28 @@ header .brand img {
 }
 
 .img-col1 {
-    background-image: url(../img/img-1.jpg);
+    background-image: url('../img/img-1.jpg');
     background-position: center;
+    background-size: cover;
 }
 
 .img-col2 {
-    background-image: url(../img/img-2.jpg);
+    background-image: url('../img/img-2.jpg');
     background-position: center;
+    background-size: cover;
 }
 
 .img-col3 {
-    background-image: url(../img/img-3.jpg);
+    background-image: url('../img/img-3.jpg');
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .img-col1 .darken1,
 .img-col2 .darken2,
 .img-col3 .darken3 {
-    height: 200px;
+    height: 180px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, .2);
     margin-bottom: 20px;
@@ -164,6 +168,8 @@ header .brand img {
 /*FOOTER*/
 
 footer {
-    height: 60px;
-    background: purple;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#000
 }
